@@ -1,0 +1,223 @@
+﻿
+
+
+
+
+
+
+VCE CAS Calculator Options and Considerations Video Transcript
+On the Independent Use of Software Calculators by a Year 10 or VCE Student Using a Screen-reader and / or Braille Display
+Produced by Nathaniel Schmidt on behalf of the EduVis ‘Pat Roberts Accessible Calculator Benefit’.
+
+
+Introduction
+Aim and General Audience
+Welcome to the Eduvis CAS software calculator considerations analysis.  My name is Nathaniel Schmidt.  I completed my secondary Victorian Certificate of Education (VCE) in 2013 and am currently studying a Bachelor of Computer Science at Deakin University.
+In the following videos, it is my intention to give you an overview of some of the different options available to vision impaired students, especially when it comes to software calculators, if you want to independently study maths at an intermediate or advanced level, especially in latter years of high school, from year ten upwards.  If you have never yet thought about studying maths in late high school, especially if the reason is because you are worried about not being able to do the work, or if you are worried about not being able to get a good grade then I hope that the suggestions in this video will help to alleviate some of your concerns.  
+It is also hoped that more students who are already studying mathematics may consider transferring there skills over to independently using their own calculators, rather than completely relying on a human aid such as a teacher’s aid, a scribe for an exam, or a parent to get their work done.
+If you have stumbled across this video outside of the Eduvis website and are still confused as to what this is all about, you can visit eduvis.com.au for more information.
+
+Specific Audience – Who is This Resource Really Meant For?
+If you are a vision impaired student anywhere in the world, or if you are a teacher who has a vision impaired student then we think it is quite likely that you will find these resources helpful.  Having said that, most of what is said here will have very specific relevance to you if you are a high school student from Victoria, Australia, studying according to the educational specifications outlined by the Victorian Curriculum and Assessment Authority (VCAA).  If you are a year 10 student and wish to continue mathematics studies in years 11 and 12, it is hoped that the following information may make your transition much easier.
+
+
+A Note on Calculators
+CAS Calculators
+CAS stands for Computer Algebra System.  A CAS calculator allows for manipulation of a computer to use the same mechanical techniques that a human mathematician would use in order to solve complex equations.  It takes away a lot of the working out process so that you can just type in an equation to get the answer.  You can do this with quadratics (linear equations), polynomials, combinatorics and a whole range of other things.  They are really helpful and make school and homework a lot faster.  CAS calculation is built into some scientific and graphing calculators; and they are the type of calculator that VCAA wants students to use when students study VCE.  Even if you use a different type of calculator, such as a graphing or scientific calculator, you may still find some of this information helpful, since CAS capabilities are already built into many of these devices, hardware and software calculators alike.
+
+Difference Between CAS and Scientific Calculators
+Sometimes there is a difference between a CAS calculator and a scientific calculator but sometimes there isn’t.  If you are not sure whether you are using a scientific or CAS calculator, it is always good to check whether or not your calculator has CAS functionality built into it as a programmable extension.  If you live in Victoria then In years  seven, eight and nine, you get to use basic scientific calculators which can deal with certain aspects of geometry and trigonometry, probability and statistics, finance, engineering measurements and logarithms.  But sometimes you will want to use a calculator to solve, simplify or expand complex algebraic expressions, or to deal with counting permutations and combinations involving matrices, as well as many other things.  To do this, it can be helpful to use a Computer Algebra system to replicate the same procedures that you would use yourself when you want to solve an equation on paper.
+In Australia, outside of Victoria, different states use either graphing or scientific calculators, some of which, as already stated, can come with a certain amount of CAS functionality beyond scientific basics.  But in Victoria, as already stated, it is expected that you use a specialised scientific calculator that can perform CAS-related operations.  In fact, the student is quite disadvantaged when not using a CAS calculator, since the subject content uses examples to follow for textbook exercises which rely on CAS calculator operations.
+
+Personal Reflection
+When I studied high school maths in years 10, 11 and 12, especially when I started year 11 VCE, this was at a point where I had just started transitioning a lot of my work from being written in hardcopy Braille and calculated on hardware calculators, to using a software calculator and writing my school work on a computer.  It was basically necessary for me to do a lot of my own homework; although I did get a lot of advice from a friend who was studying maths at the same time as me and who had already done a lot of research on calculators and how to write maths on the computer.  But there were still a lot of difficulties.  One of the biggest ones was that I did not always know how to properly read and understand the documentation for the software calculator I was using.  This meant that I could not always figure out for myself how to translate some of the procedures and functions I had to use into practical examples.  Solving algebra via a calculator was pretty easy.  But I had trouble figuring out how to count combinations and permutations by using matrices, without consulting someone else beforehand who had already performed the procedure.  I can do this easily enough now but back then it was difficult to learn on my own.  There were probably other issues as well but these are all I can think of since the 7-8 years or so that it’s been since I specifically worked on these things in a high school setting.
+What I did not ever have access to – but wish I did have access to – was some kind of a guide, specifically tailored to my own situation, compiling instructions on how to use different software solutions for performing calculations and writing out maths on a computer.  It would have saved months of research, time that could have been spent on doing actual school work to get the maths done.
+This is why we have put together the videos you are now watching.  I hope they are of benefit to you and make life a bit easier.  Hopefully there may also be more vision impaired students who are prepared to take the plunge and study more advanced levels of mathematics education, such as mathematical methods or even specialist maths, education and knowledge that is required if one wishes to pursue a career in any fields of engineering, computing, physics and other scientific fields.
+
+
+Using Software Calculators
+When you are studying any subject at any level, it is always good to try your best to work within a standard that is closest to the technical specifications outlined by the overseeing educational body that your school is under.  In Victoria, the good thing is that VCAA has already approved around half a dozen software applications that you can use on your computer as a CAS calculator, so you don’t necessarily have to make too many compromises in order to work around the requirements for your education.  In this examination, we will be looking at three of these solutions.  We will also have a look at a fourth solution, Maxima, which is the free and open-source software calculator that a software engineering friend and I used in order to help us do CAS Maths, or what is officially called Mathematical Methods in years 11 and 12.  We will examine some of the features of these calculators, along with the pros and cons of each solution when compared with each other.  We will not be able to cover absolutely everything that you can use these calculators for in your studies, so it will still be very important for you to do your own homework, to figure out extra features you may need in order to perform calculations from examples or exercises in a textbook or workbook.  Hopefully these insights get you off to a good start.
+
+Available and approved CAS software calculators:
+Maple
+At the end of every command line, you need to input the ';' for Maple to know the line is finished.
+
+Basics
+Add  
++
+subtract
+-
+mulitply
+*
+divide
+/
+to the power
+^
+Numbers
+Rational or irration number expansion:
+evalf(6/9);
+                          0.6666666667
+
+square root:
+sqrt(8);
+                               (1/2)
+                            2 2     
+
+cube root:
+root(8, 3);
+                               2
+
+
+
+Solve Equations
+solve(n/6 = 5);
+                               30
+
+solve(2*b - 4*b = -b + 3);
+                               -3
+
+
+Inequalities
+One step linear inequalities
+solve(`>=`(z + 4, 1));
+                    RealRange(-3, infinity)
+
+Advanced inequalities
+solve(`>=`(-k - 2, 14));
+                    RealRange(-infinity, -4)
+
+
+
+Logarithms
+log(2);
+                             ln(2)
+
+log10(2);
+                             ln(2) 
+                             ------
+                             ln(10)
+
+log10(100);
+                               2
+
+log[5](5) = log[5](5);
+                             1 = 1
+
+
+
+Exponential and Logarithmic Functions
+solve(8^x = 9);
+                            2 ln(3)
+                            -------
+                            3 ln(2)
+
+solve(log[6](y) = 1);
+                               6
+
+solve(log(2*t) = log(8));
+                               4
+
+
+Monomials
+4*u^5 + u^5;
+                                 5
+                              5 u 
+
+
+(9*u^5)*(3*u^6);
+                                 11
+                             27 u  
+
+need to put asterix here or else will result with:
+(9*u^5)(3*u^6);
+                                    5
+                              /   6\ 
+                           9 u\3 u / 
+
+(4*g^2)/(4*g^9);
+                               1 
+                               --
+                                7
+                               g 
+
+
+Polynomials
+add and subtract polynomials
+(5*x^2 + 2*x - 4) + (-2*x^2 + 4*x - 5);
+                            2          
+                         3 x  + 6 x - 9
+
+Multiplying polynomials (exapnding)
+expand((q - 3)*(q + 3));
+                              2    
+                             q  - 9
+
+
+
+Factorising
+factor(g^2 + 14*g + 13);
+                        (g + 13) (g + 1)
+
+
+factor(m^2 - 10*m + 25);
+                                   2
+                            (m - 5) 
+
+
+
+
+Quadratic Equations
+solve(2*(y + 4) = 0);
+                               -4
+
+                             "(->)"
+
+still need to find out how to group and solve quad equations
+
+Mathematica
+Initialisation for usage:
+1. Create a system and / or user (preferably system) environment variable for the Wolfram engine / Mathematica directory
+2. Press Windows+R and then type “cmd” to open a command prompt.
+3. Type either “wolfram” for the command-line client, or “mathematica” for the graphical interface.
+
+Usage:
+% stands for previous result  e.g. %+6
+Use a space or * for multiplication, not the “x” character e.g.  
+Use parentheses (not braces or brackets) to show levels of grouping e.g  
+Arguments to built-in functions are separated by commas and enclosed in square brackets:
+ 
+
+If you don’t know what function to use, type = at the beginning of a line for natural-language input: e.g. = Plot a sine curve
+
+Lists represent collections of items and are indicated by { ... }  e.g.  { 1,2,3} +2
+
+construct lists with functions like Range[10]
+
+(Use CTRL+ / to enter fractions
+
+Put fractions over their lowest common denominator with Together:  
+   	
+ 
+Scientific form e.g.  
+Variables start with letters and can also contain numbers:
+(It’s best to start with lowercase letters, reserving capitals for built-in objects
+use /. and  to make substitutions in an expression: e.g. 1+2x/.x→2
+
+Define your own functions with the construction e.g f[x_]:=2x+1
+:= means that any argument passed to f is substituted into the right-hand side upon evaluation:  e.g.   f[2] = 5
+
+Matlab
+
+
+Modes of usage:
+GUI: None or possibly Maple.
+CLI: Maple and Mathematica.
+Web app frontend: Matlab.
+Compatibility across common devices and platforms.
+Installation files / process.
+Maxima.
+Compatibility with common screen-readers.
+Ease of locating and learning commands for operation.
+Flexibility and intuitivism.
+Support for teachers on using CAS in CLI.
+Demonstrate mathematical examples.
